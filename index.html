@@ -7,15 +7,11 @@
     <title>Test Page: Don't Panic</title>
 </head>
 <style>
-    div{
-        border: 1px solid black;
-    }
-
-    li a{
+    div a{
         color: red;
     }
 
-    a{
+    li a{
         color: green;
     }
 
@@ -26,6 +22,29 @@
     .regular-link{
         color: lightblue;
     }
+
+    #exec-bio{
+        background-color: lightgray;
+        height: 100%;
+    }
+
+    .bio-box a{
+        color: green;
+    }
+
+    .bio-copy{
+        border: none;
+    }
+
+    body{
+        height: 800px;
+    }
+
+    .bio-box{
+        border: 1px solid #000;
+        width: 50%;
+    }
+
 </style>
 <body>
     <h1>I'm an h1</h1>
@@ -35,14 +54,47 @@
         <li><a href="https://example.com" class="regular-link">Link</a></li>
     </ul>
     <h2>I'am an h2</h2>
-    <div>
-        <a href="https://https://example.com">I'm a Link</a>
-    </div>
-    <div>
-        <a href="https://https://example.com">I'm a Link</a>
-    </div>
-    <div>
-        <a href="https://https://example.com">I'm a Link</a>
+    <div class="bio-wrapper">
+        <div id="exec-bio" class="bio-box alert">
+            <h3>Robert C. Martin</h3>
+            <a href="https://https://example.com">Facebook</a>
+            <div class="bio-copy">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Vel excepturi quidem maiores quibusdam molestias cupiditate 
+                    adipisci inventore, provident quos aut! Consequatur, odit sit impedit dolores provident,
+                    at doloremque temporibus minus ipsum cum rem. Tenetur repellat in, porro aperiam provident quo? 
+                    Voluptates debitis, enim nam repudiandae autem quisquam libero quae veniam?
+                </p>
+            </div>
+        </div>
+        <div class="bio-box">
+            <h3>Bjarne Stroustrup</h3>
+            <a href="https://https://example.com">Instagram</a>
+            <div class="bio-copy">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Tempora quis totam quasi commodi? Voluptatibus ab similique 
+                    rerum ipsa dolore totam excepturi hic doloremque, nihil enim 
+                    alias doloribus laborum minima nulla eum ducimus nobis dolorum 
+                    veritatis deserunt! Sunt voluptas necessitatibus autem assumenda 
+                    quisquam consequuntur praesentium repudiandae nisi velit, odit iste vitae?
+                </p>
+            </div>
+        </div>
+        <div class="bio-box alert">
+            <h3>Linus Torvalds</h3>
+            <a href="https://https://example.com">Twitter</a>
+            <div class="bio-copy">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quam assumenda magni voluptas, reprehenderit modi incidunt aspernatur possimus illum corrupti excepturi quod. 
+                    Mollitia, sapiente architecto, magnam eveniet sit, 
+                    adipisci labore commodi cumque laborum ducimus dolor libero amet ipsam voluptatum doloremque. 
+                    Itaque repudiandae id ipsum. Ducimus autem praesentium culpa. Nostrum, sunt aut?
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
